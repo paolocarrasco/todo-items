@@ -28,4 +28,10 @@ describe('Controller: MainCtrl', function () {
     });
   });
 
+  describe('#removeTodo', function () {
+    it('should remove the selected item from the list', function () {
+      scope.removeTodo(2);
+      expect(scope.todos.length).toBe(2);
+    });
+  });
 });
