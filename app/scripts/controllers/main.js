@@ -9,7 +9,7 @@
  */
 angular.module('innovationUiApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
+    $scope.todos = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
