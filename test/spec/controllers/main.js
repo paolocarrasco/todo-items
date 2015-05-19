@@ -19,4 +19,13 @@ describe('Controller: MainCtrl', function () {
   it('should attach a list of awesomeThings to the scope', function () {
     expect(scope.todos.length).toBe(3);
   });
+
+  describe('#addTodo', function () {
+    it('should add an item into the list', function () {
+      scope.todo = 'Daysy';
+      scope.addTodo();
+      expect(scope.todos.length).toBe(4);
+    });
+  });
+
 });
