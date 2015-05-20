@@ -1,15 +1,7 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name innovationUiApp
- * @description
- * # innovationUiApp
- *
- * Main module of the application.
- */
 angular
-  .module('innovationUiApp', [
+  .module('todoItemsUiApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -25,8 +17,7 @@ angular
         controller: 'MainCtrl'
       })
       .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+        templateUrl: 'views/about.html'
       })
       .otherwise({
         redirectTo: '/'

@@ -1,13 +1,6 @@
 'use strict';
 
-/**
- * @ngdoc function
- * @name innovationUiApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the innovationUiApp
- */
-angular.module('innovationUiApp')
+angular.module('todoItemsUiApp')
   .controller('MainCtrl', function ($scope) {
     $scope.todos = [
       'HTML5 Boilerplate',

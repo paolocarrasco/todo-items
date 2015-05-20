@@ -3,7 +3,7 @@
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('innovationUiApp'));
+  beforeEach(module('todoItemsUiApp'));
 
   var MainCtrl,
     scope;
@@ -16,7 +16,7 @@ describe('Controller: MainCtrl', function () {
     });
   }));
 
-  it('should attach a list of awesomeThings to the scope', function () {
+  it('should attach a list of todo items to the scope', function () {
     expect(scope.todos.length).toBe(3);
   });
 
